@@ -43,13 +43,15 @@ export default function PagePost({ params }: { params: { index: string } }) {
       <p className="text-xl text-slate-400 mt-2">{postDataItem.subtitle}</p>
       <p className="text-lg text-slate-500">{postDataItem.date}</p>
 
-      <iframe
-        width="100%"
-        height="450"
-        allow="autoplay"
-        className="max-w-screen-md px-12 mt-20 mb-12"
-        src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/${postDataItem.soundcloud}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`}
-      ></iframe>
+      {postDataItem.soundcloud && (
+        <iframe
+          width="100%"
+          height="450"
+          allow="autoplay"
+          className="max-w-screen-md px-12 mt-20 mb-12"
+          src={`https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/${postDataItem.soundcloud}&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`}
+        ></iframe>
+      )}
 
       <Markdown
         remarkPlugins={[remarkGfm]}

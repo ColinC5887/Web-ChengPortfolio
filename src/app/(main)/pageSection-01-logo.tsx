@@ -12,7 +12,19 @@ export default function MainSectionLogo() {
         fill={true}
         priority={true}
       />
-
+      {/* Video */}
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+        <video
+          className="max-w-xs md:max-w-lg"
+          src="/path/to/video.mp4"
+          autoPlay
+          loop
+          muted
+        />
+        <p className="text-4xl font-bold drop-shadow-dark mx-8 mt-4">
+          Watch Our Story
+        </p>
+      </div>
       {/* Logo */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
         <Image src="/img/logo.png" alt="Cheng Logo" width={512} height={512} />
