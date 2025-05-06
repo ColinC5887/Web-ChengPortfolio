@@ -9,6 +9,15 @@ export default interface PostDataItem {
 
 export const AllPostData: PostDataItem[] = [
   {
+    id: "011",
+    title: "Rites of the Summoned",
+    subtitle: "A Project for SpeedJam #8",
+    date: "2025-05-05",
+    soundcloud: "",
+    content:
+      "## Game Description\nThis project is for the `Mini Jame Gam #42`. The theme of the jam is `Summon`.\n\nIt was a card summon game. Deal card to summon and use them to defend the demons. Nice and easy.\n\n\n## Soundtrack in the Game\nThere are 2 tracks in the game and the logic is simple:\n\n* While the player is summoning, there is a calm and (relativity) peaceful sound.\n* When the enemy arrives, switch to a fighting and upbeat sound.\n\n\n## Music Files\nHere are the tracks:\n\n* [01. Echo Sleep](/Post011/01._Echo_Sleep.mp3)\n* [02. Summon Roar](/Post011/02._Summon_Roar.mp3)\n\nThese are prepared for Unity: \n\n* [01. Echo Sleep - Intro](/Post011/01._Echo_Sleep_-_Intro.ogg)\n* [01. Echo Sleep - Loop](/Post011/01._Echo_Sleep_-_Loop.ogg)\n* [02. Summon Roar - Intro](/Post011/02._Summon_Roar_-_Intro.ogg)\n* [02. Summon Roar - Loop](/Post011/02._Summon_Roar_-_Loop.ogg)\n\n\n## Copyright\nBecause I make music just for fun. Whoever comes here is free to use my music in their project as long as they give me credit.",
+  },
+  {
     id: "010",
     title: "Claw of the Wild",
     subtitle: "A Project for SpeedJam #8",
@@ -19,7 +28,7 @@ export const AllPostData: PostDataItem[] = [
   },
   {
     id: "009",
-    title: "Rise of Turtle",
+    title: "Rise of the Turtle",
     subtitle: "A Project for GMTK 2024 Jam",
     date: "2024-08-21",
     soundcloud: "",
@@ -28,7 +37,7 @@ export const AllPostData: PostDataItem[] = [
   },
   {
     id: "008",
-    title: "Wings of Azure",
+    title: "Wings of the Azure",
     subtitle: "A Project for OST Composing Jam: Crunchtime 03",
     date: "2024-05-12",
     soundcloud: "1822156308",

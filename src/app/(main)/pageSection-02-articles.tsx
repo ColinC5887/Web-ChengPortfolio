@@ -29,7 +29,7 @@ export default function MainSectionPost() {
               {/* Title and Date */}
               <div className="flex flex-col justify-center items-center">
                 <p className="text-2xl lg:text-xl xl:text-2xl font-bold text-slate-200">
-                  {item.title}
+                  {item.title.length > 20 ? item.title.slice(0, 18) + '...' : item.title}
                 </p>
                 <p className="text-md text-slate-400 mt-2">{item.date}</p>
               </div>
