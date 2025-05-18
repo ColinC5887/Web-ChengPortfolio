@@ -9,6 +9,15 @@ export default interface PostDataItem {
 
 export const AllPostData: PostDataItem[] = [
   {
+    id: "013",
+    title: "Fury of the Finger",
+    subtitle: "GDevelop BIG Game Jam #7: Overpowered",
+    date: "2025",
+    soundcloud: "",
+    content:
+      "## Game Description\nThis project is for the `GDevelop BIG Game Jam #7`. The theme of the jam is `Overpowered`.\n\nIn this game, ther player can use their finger and one-hit-kill any enemy.\n\n\n## Soundtrack in the Game\nThis is a collection of electronic tracks oriented toward combat. The music is characterized by heavy drum patterns, sharp rhythms, and a consistent sense of momentum. Each piece is designed to support fast-paced gameplay, featuring minimal harmonic changes and focusing on groove, pacing, and loopability instead.\n\nThe soundtrack emphasizes energy over complexity, favoring tight percussion, pulsing synths, and a sense of forward motion that reflects the game's one-hit-kill mechanics and rapid progression through enemy encounters.\n\n\n## Music Files\nHere are the tracks:\n\n* [01. Alley Chase](/Post013/01._Alley_Chase.mp3)\n* [02. Neon Heights](/Post013/02._Neon_Heights.mp3)\n* [03. Skyline Pursuit](/Post013/03._Skyline_Pursuit.mp3)\n* [04. Lair Showdown](/Post013/04._Lair_Showdown.mp3)\n* [05. Iron Pulse](/Post013/05._Iron_Pulse.mp3)\n\nThese are prepared for Unity: \n\n* [01. Alley Chase - Intro](/Post013/01._Alley_Chase_-_Intro.ogg)\n* [01. Alley Chase - Loop](/Post013/01._Alley_Chase_-_Loop.ogg)\n* [02. Neon Heights - Intro](/Post013/02._Neon_Heights_-_Intro.ogg)\n* [02. Neon Heights - Loop](/Post013/02._Neon_Heights_-_Loop.ogg)\n* [03. Skyline Pursuit - Intro](/Post013/03._Skyline_Pursuit_-_Intro.ogg)\n* [03. Skyline Pursuit - Loop](/Post013/03._Skyline_Pursuit_-_Loop.ogg)\n* [04. Lair Showdown - Intro](/Post013/04._Lair_Showdown_-_Intro.ogg)\n* [04. Lair Showdown - Loop](/Post013/04._Lair_Showdown_-_Loop.ogg)\n* [05. Iron Pulse - Intro](/Post013/05._Iron_Pulse_-_Intro.ogg)\n* [05. Iron Pulse - Loop](/Post013/05._Iron_Pulse_-_Loop.ogg)\n\n\n## Copyright\nBecause I make music just for fun. Whoever comes here is free to use my music in their project as long as they give me credit.",
+  },
+  {
     id: "012",
     title: "Rush of the Hunt",
     subtitle: "Mini Jam 184: Birds",
