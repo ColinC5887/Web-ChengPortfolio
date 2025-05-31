@@ -9,6 +9,14 @@ export default interface PostDataItem {
 
 export const AllPostData: PostDataItem[] = [
   {
+    id: "014",
+    title: "Survivors of the Skyline",
+    subtitle: "A peaceful skyline life",
+    date: "2025",
+    soundcloud: "",
+    content:
+      "## Game Description:\nThis project is for a game jam with the theme `tower`, set in a unique world above the clouds.\n\nThe story takes place in a massive tower or lighthouse where people live far above the surface. They are surrounded by fog, uncertainty, and the memory of a past catastrophe. You play as a young person who is tasked with daily chores in a fragile, vertical community that is struggling with water and food shortages.\n\n\n## Soundtrack in the Game\nTwo tracks were composed for this game. The goal was to support a calm, reflective atmosphere while carrying the emotional weight of the community’s uncertain future.\n\n\n### 01. The Cloudwalk\nThis is the main in-game theme, played during daytime exploration and task completion.\n\n* Style: Calm, quiet, monochromatic\n* Instruments: felt piano, warm strings, ambient textures\n* Emotion: peace, routine, and melancholy\n\nThe track reflects the weight of everyday life above the clouds. It maintains a sense of stillness while allowing the player to feel quietly immersed in the world.\n\n\n### 02. The Descent\nThis is the emotional theme triggered during the council meeting and late-game decisions.\n\n* Style: tense\n* Instruments: felt piano, strings, layered pads\n* Emotion: loss, reflection, fragile hope\n\nWhile `The Cloudwalk` represents daily survival, `The Descent` brings the emotional climax as the community questions whether it's time to return to the world below.\n\n\n## Music Files\nHere are the tracks:\n\n* [01. The Cloudwalk](/Post014/01._The_Cloudwalk.mp3)\n* [02. The Descent](/Post014/02._The_Descent.mp3)\n\nThese are prepared for Unity: \n\n* [01. The Cloudwalk - Intro](/Post014/01._The_Cloudwalk_-_Intro.ogg)\n* [01. The Cloudwalk - Loop](/Post014/01._The_Cloudwalk_-_Loop.ogg)\n* [02. The Descent - Intro](/Post014/02._The_Descent_-_Intro.ogg)\n* [02. The Descent - Loop](/Post014/02._The_Descent_-_Loop.ogg)\n\n\n## Copyright\nBecause I make music just for fun. Whoever comes here is free to use my music in their project as long as they give me credit.",
+  },  {
     id: "013",
     title: "Fury of the Finger",
     subtitle: "GDevelop BIG Game Jam #7: Overpowered",
