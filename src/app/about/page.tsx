@@ -6,7 +6,6 @@ export default function PageAbout() {
     "I have a knack for tailoring music to fit different game environments. Whether it's the serene melodies of a peaceful village or the adrenaline-pumping beats of an epic battle, I pride myself on creating music that blends seamlessly into different game scenarios. My goal is to evoke emotion and deepen immersion through carefully crafted soundscapes.",
     "To me, music is a language of emotion and experience. Composing for games offers a unique opportunity to express and perceive the world through sound. Every note I create aims to transport the player into a world of emotion and deepen their connection to the game's narrative.",
     "Creating music for games isn't just a job; it's a passion that allows me to push boundaries. It's about creating memorable moments within the game world, building connections between players and the game experience. I strive to leave an indelible mark by creating memorable sonic landscapes.",
-    "I especially enjoy working with indie game developers. If you are an indie developer looking for unique and compelling music for your game, please don't hesitate to contact me at example@mail.com. I would love to work with you and contribute to your project!",
     "Thank you for exploring my world of game-inspired music. I hope these compositions resonate with you, elevating your gaming experience to new heights and infusing every moment with the power of music.",
     "Cheng",
   ];
