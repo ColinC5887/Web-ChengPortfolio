@@ -9,6 +9,15 @@ export default interface PostDataItem {
 
 export const AllPostData: PostDataItem[] = [
   {
+    id: "016",
+    title: "Sight of the Sound",
+    subtitle: "A adventure in the darkness",
+    date: "2025",
+    soundcloud: "",
+    content:
+      "## Game Description\nThis project was created for a game jam with the theme of `Unseen` and it focuses on audio-based horror gameplay. The game world is shrouded in darkness. The player is blind and must rely on echolocation pings to navigate. Meanwhile, enemies suffer from their own sensory limitations: some are blind, while others are deaf.\n\nThe entire game takes place across five distinct floors of a derelict facility. Each floor introduces new mechanics and threats, building tension as the player explores the interplay between sound, silence, and survival.\n\n\n## Soundtrack in the Game\nFour music tracks were composed to enhance the experience.\n\nThe approach emphasizes ambient horror, built on diminished chords, sparse textures, and occasional waterphone accents. There are no melodies. Only fragments, drones, and echoes bleed into the environment. The music and sound design blur together to create a continuous emotional undertone.\n\nEach track represents a psychological descent through sensory disorientation, transitioning from sterile silence to chaotic fear.\n\n\n## Music Files\nHere are the tracks:\n\n* [01. Flicker Far](/Post016/01._Flicker_Far.mp3)\n* [02. Metal Malice](/Post016/02._Metal_Malice.mp3)\n* [03. Cradle Creep](/Post016/03._Cradle_Creep.mp3)\n* [04. Mind Murk](/Post016/04._Mind_Murk.mp3)\n\n\nThese are prepared for Unity: \n* [01. Flicker Far - Intro](/Post016/01._Flicker_Far_-_Intro.ogg)\n* [01. Flicker Far - Loop](/Post016/01._Flicker_Far_-_Loop.ogg)\n* [02. Metal Malice - Intro](/Post016/02._Metal_Malice_-_Intro.ogg)\n* [02. Metal Malice - Loop](/Post016/02._Metal_Malice_-_Loop.ogg)\n* [03. Cradle Creep - Intro](/Post016/03._Cradle_Creep_-_Intro.ogg)\n* [03. Cradle Creep - Loop](/Post016/03._Cradle_Creep_-_Loop.ogg)\n* [04. Mind Murk - Intro](/Post016/04._Mind_Murk_-_Intro.ogg)\n* [04. Mind Murk - Loop](/Post016/04._Mind_Murk_-_Loop.ogg)\n\n\n## Copyright\nBecause I make music just for fun. Whoever comes here is free to use my music in their project as long as they give me credit.",
+  },
+  {
     id: "015",
     title: "Fangs of the Gentle",
     subtitle: "A level evolves through passing and failing",
