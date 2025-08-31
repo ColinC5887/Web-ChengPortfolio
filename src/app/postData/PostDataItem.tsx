@@ -9,6 +9,15 @@ export default interface PostDataItem {
 
 export const AllPostData: PostDataItem[] = [
   {
+    id: "017",
+    title: "Stand of the Living",
+    subtitle: "Last line of human",
+    date: "2025",
+    soundcloud: "",
+    content:
+      "## Game Description\nThis project was created for a game jam with the theme `Risk It for the Biscuit`.\n\nInspired by the mechanics of `Papers, Please`, the game is set in a post-apocalyptic world overrun by zombies. During the day, the player stands at the gates of a shelter and checks the identity and condition of those seeking refuge. Every decision carries weight. Accept too many strangers, and you risk letting a zombie slip inside. Turn away potential allies, and you risk losing access to a workforce and resources. Survivors bring both advantages and dangers. Some may strengthen the community, while others may be infected or have ulterior motives.\n\nThe design blends moral choices with survival management. Each day becomes a gamble: risk safety for growth or preserve stability at the cost of dwindling numbers. In this way, the theme of `Risk it for the Biscuit` is reflected in the narrative and in every decision the player makes.\n\n\n## Soundtrack in the Game\nThree tracks were composed to support the atmosphere and the flow of gameplay. The soundtrack follows the rhythm of daily survival, from tense anticipation and quiet nights of uncertainty to desperate defense during zombie attacks.\n\n01. Last Refuge (Main Theme)\n\nThis central theme is played in the main menu and upon successful completion. The clear melodic motif it introduces ties the player’s experience together, representing both the weight of survival and the possibility of rebuilding.\n\n02. Hollow Nights (Ambient)\n\nThis track plays during nighttime, when players manage resources and listen to the silence outside the shelter. Through stillness, it creates tension, highlighting the fear of the unknown.\n\n03. Dead Reckoning (Combat Theme)\n\nThis track plays during zombie invasions and combat minigames. Its driving rhythm and aggressive textures raise the stakes, pushing players into a heightened state of focus and adrenaline.\n\n\n## Music Files\nHere are the tracks:\n\n* [01. Last Refuge](/Post017/01._Last_Refuge.mp3)\n* [02. Hollow Nights](/Post017/02._Hollow_Nights.mp3)\n* [03. Dead Reckoning](/Post017/03._Dead_Reckoning.mp3)\n\nThese are prepared for Unity: \n\n* [01. Last Refuge - Intro](/Post017/01._Last_Refuge_-_Intro.ogg)\n* [01. Last Refuge - Loop](/Post017/01._Last_Refuge_-_Loop.ogg)\n* [02. Hollow Nights - Intro](/Post017/02._Hollow_Nights_-_Intro.ogg)\n* [02. Hollow Nights - Loop](/Post017/02._Hollow_Nights_-_Loop.ogg)\n* [03. Dead Reckoning - Intro](/Post017/03._Dead_Reckoning_-_Intro.ogg)\n* [03. Dead Reckoning - Loop](/Post017/03._Dead_Reckoning_-_Loop.ogg)\n\n\n## Copyright\nBecause I make music just for fun. Whoever comes here is free to use my music in their project as long as they give me credit.",
+  },
+  {
     id: "016",
     title: "Sight of the Sound",
     subtitle: "A adventure in the darkness",

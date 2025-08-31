@@ -7,7 +7,7 @@ export default function MainSectionPost() {
   return (
     <div className="flex flex-col items-center h-auto w-full py-20">
       <div className="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-8">
-        {[...AllPostData].map((item) => {
+        {[...AllPostData].slice(0, 16).map((item) => {
           return (
             <Link
               id={item.id}
@@ -29,7 +29,9 @@ export default function MainSectionPost() {
               {/* Title and Date */}
               <div className="flex flex-col justify-center items-center">
                 <p className="text-2xl lg:text-xl xl:text-2xl font-bold text-slate-200">
-                  {item.title.length > 20 ? item.title.slice(0, 18) + '...' : item.title}
+                  {item.title.length > 20
+                    ? item.title.slice(0, 18) + "..."
+                    : item.title}
                 </p>
                 <p className="text-md text-slate-400 mt-2">{item.date}</p>
               </div>
